@@ -51,7 +51,7 @@ end
 local function ChangeToggleColor(Button)
 	led = Button.Ticket_Asset
 	if led.ImageColor3 == Color3.fromRGB(245, 240, 255) then
-		led.ImageColor3 = Color3.fromRGB(0, 255, 0)
+		led.ImageColor3 = Color3.fromRGB(230, 200, 255)
 	else
 		led.ImageColor3 = Color3.fromRGB(245, 240, 255)
 	end
@@ -412,7 +412,7 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "╭∩╮( ＾◡＾)╭∩╮ JIAOZI"
+TitleBarLabel.Text = "Twylaurs"
 TitleBarLabel.TextColor3 = Color3.fromRGB(200, 0, 255)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 14.000
@@ -922,7 +922,7 @@ Welcome_Label.BorderSizePixel = 0
 Welcome_Label.Position = UDim2.new(0, 150, 0, 25)
 Welcome_Label.Size = UDim2.new(0, 200, 0, 100)
 Welcome_Label.Font = Enum.Font.SourceSans
-Welcome_Label.Text = ("Hello, @"..plr.Name.." na scripter!\nPress [B] kasi bobo ka")
+Welcome_Label.Text = ("Hello, @"..plr.Name.." \nPress [B] to close")
 Welcome_Label.TextColor3 = Color3.fromRGB(200, 0, 255)
 Welcome_Label.TextSize = 24.000
 Welcome_Label.TextWrapped = true
@@ -937,7 +937,7 @@ Announce_Label.BorderSizePixel = 0
 Announce_Label.Position = UDim2.new(0, 25, 0, 150)
 Announce_Label.Size = UDim2.new(0, 350, 0, 150)
 Announce_Label.Font = Enum.Font.SourceSans
-Announce_Label.Text = "tang ina ka scripter"
+Announce_Label.Text = "luvu"
 Announce_Label.TextColor3 = Color3.fromRGB(200, 0, 255)
 Announce_Label.TextSize = 24.000
 Announce_Label.TextWrapped = true
