@@ -3436,7 +3436,7 @@ FreeEmotes_Button.MouseButton1Click:Connect(function()
 	if not FreeEmotesEnabled then
 		FreeEmotesEnabled = true
 		SendNotify("TwyI","./.")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/miraclegoddd/SorenJecho-/refs/heads/main/sorenjechoemoteV2.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xo-twyy/emotestwy/refs/heads/main/emotes"))()
 	end
 end)
 
