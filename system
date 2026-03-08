@@ -1291,7 +1291,7 @@ TeleportTarget_Button.TextWrapped = true
 
 HeadsitTarget_Button.Name = "HeadsitTarget_Button"
 HeadsitTarget_Button.Parent = Target_Section
-HeadsitTarget_Button.BackgroundColor3 = Color3.fromRGB(200, 0, 255)
+HeadsitTarget_Button.BackgroundColor3 = Color3.fromRGB(227, 5, 5)
 HeadsitTarget_Button.BackgroundTransparency = 0.500
 HeadsitTarget_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HeadsitTarget_Button.BorderSizePixel = 0
