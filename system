@@ -2825,7 +2825,7 @@ end)
 HeadsitTarget_Button.MouseButton1Click:Connect(function()
 	if TargetedPlayer ~= nil then
 		ChangeToggleColor(HeadsitTarget_Button)
-		if HeadsitTarget_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(230, 200, 255) then
+		if HeadsitTarget_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(245,240,255) then
 			repeat
 				pcall(function()
 					if not GetRoot(plr):FindFirstChild("BreakVelocity") then
@@ -2840,7 +2840,7 @@ HeadsitTarget_Button.MouseButton1Click:Connect(function()
 					GetRoot(plr).Velocity = Vector3.new(0,0,0)
 				end)
 				task.wait()
-			until HeadsitTarget_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(230, 200, 255)
+			until HeadsitTarget_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(245,240,255)
 			if GetRoot(plr):FindFirstChild("BreakVelocity") then
 				GetRoot(plr).BreakVelocity:Destroy()
 			end
